@@ -1,0 +1,16 @@
+{
+  "name": "e2b-mcp-gateway",
+  "version": "1.0.0",
+  "description": "HTTP gateway for E2B MCP server - exposes stdio MCP as SSE/HTTP for Letta",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@e2b/mcp-server": "^0.2.3",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
